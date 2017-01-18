@@ -31,7 +31,7 @@ I have used mini-batches to train the neural net for several epochs. Mini-batche
 - I use the quadratic cost function.
 
 Example usage:
-1. Create a neural net of size [784,30,10]. This network has three layers: 784 neurons in the input layer, 30 neurons in the hidden layer, and 10 neurons in the output layer. Then train it on the training data for 30 epochs, with a minibatch size of 20 and η = 3.0 and test it on the test data(TestDigitX.csv.gz).
-2. Try different hyperparameter settings(number of epochs, η, and mini-batch size, etc.).
-3. Replace the quadratic cost function by a cross entropy cost function.
-4. L2 regularization. Use L2 regularizers on the weights to modify the cost function.
+- Create a neural net of size [784,30,10]. This network has three layers: 784 neurons in the input layer, 30 neurons in the hidden layer, and 10 neurons in the output layer. Then train it on the training data for 30 epochs, with a minibatch size of 20 and η = 3.0 and test it on the test data(TestDigitX.csv.gz).
+- Try different hyperparameter settings(number of epochs, η, and mini-batch size, etc.).
+- Replace the quadratic cost function by a cross entropy cost function.
+- L2 regularization. Use L2 regularizers on the weights to modify the cost function.

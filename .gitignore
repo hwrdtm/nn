@@ -1,0 +1,9 @@
+*.pdf
+*.py
+!neural_network.py
+
+mnist_loader.pyc
+mnist.pkl
+mnist.pkl.gz
+
+*.csv
